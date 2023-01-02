@@ -7,10 +7,10 @@ console.log("Game is ON!");
 // Constants and variables for the game 
 
 let velocity = { x: 0, y: 0 };
-const foodSound = new Audio('../food.mp3');
-const gameOver = new Audio('../gameover.mp3');
-const moveSound = new Audio('../move.mp3');
-const music = new Audio("../music.mp3");
+const foodSound = new Audio('food.mp3');
+const gameOver = new Audio('gameover.mp3');
+const moveSound = new Audio('move.mp3');
+const music = new Audio("music.mp3");
 let speed = 3;
 let lastPaintTime = 0;
 // snake is an array as it is made of many div
